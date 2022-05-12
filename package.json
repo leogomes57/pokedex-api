@@ -4,7 +4,7 @@
   "description": "API de uma pokedex",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon api"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/leogomes57/pokedex-api/issues"
   },
-  "homepage": "https://github.com/leogomes57/pokedex-api#readme"
+  "homepage": "https://github.com/leogomes57/pokedex-api#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "http": "0.0.1-security",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2"
+  }
 }
